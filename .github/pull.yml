@@ -1,0 +1,10 @@
+version: "1"
+rules:
+  - base: main
+    upstream: mlpcalc:main
+    mergeMethod: merge
+    mergeUnstable: false
+    reviewers:
+      - Franck-Nein
+    conflictReviewers:
+      - Franck-Nein
